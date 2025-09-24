@@ -41,15 +41,15 @@ const SearchResultsPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-background">
       <SearchBar showBackButton={true} initialQuery={query} />
-
+<br></br>
       {/* Sponsored Results */}
       <div className="p-4">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-sm text-muted">Sponsored</h2>
           <MoreVertIcon className="w-5 h-5 text-muted" />
         </div>
-
-        <div className="space-y-4">
+<br></br>
+        <div className="space-y-4 ">
           <AppRow
             icon="/mpesa-icon.png"
             name="M-PESA"
@@ -60,7 +60,7 @@ const SearchResultsPage: React.FC = () => {
             showOpenButton={true}
             onOpenClick={handleOpenMPesa}
           />
-
+<br></br>
           <AppRow
             icon="/iam-bank-icon.png"
             name="I&M OTG Personal KE"
@@ -69,7 +69,7 @@ const SearchResultsPage: React.FC = () => {
             onOpenClick={handleOpenIandM}
           />
         </div>
-
+<br></br>
         {/* App Details */}
         <div className="flex items-center justify-between py-4 border-b border-border">
           <div className="flex items-center gap-6 text-sm">
@@ -112,7 +112,7 @@ const SearchResultsPage: React.FC = () => {
           I&M App offers you a safe, secure and convenient mobile banking experience
         </p>
       </div>
-
+<br></br>
       {/* Related to Search */}
       <div className="p-4">
         <div className="flex items-center justify-between mb-4">
@@ -147,7 +147,7 @@ const SearchResultsPage: React.FC = () => {
           ))}
         </div>
       </div>
-
+<br></br>
       {/* You Might Also Like */}
       <div className="p-4">
         <div className="flex items-center justify-between mb-4">

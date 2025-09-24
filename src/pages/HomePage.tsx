@@ -56,6 +56,7 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </div>
+      <br></br><br></br>
 
       {/* Hero Section */}
       <div className="p-4">
@@ -75,7 +76,7 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </div>
-
+<br></br><br></br>
       {/* Duolingo App Row */}
       <div className="px-4">
         <AppRow
@@ -86,7 +87,7 @@ const HomePage: React.FC = () => {
           ageRating={appConfig.apps.duolingo.ageRating}
           showInstallButton={true}
         />
-      </div>
+      </div><br></br>
 
       {/* Sponsored Section */}
       <div className="p-4">
@@ -94,7 +95,7 @@ const HomePage: React.FC = () => {
           <h2 className="text-base text-muted-foreground">Sponsored • Suggested for you</h2>
           <MoreVertIcon className="w-5 h-5 text-muted-foreground" />
         </div>
-
+<br></br>
         <div className="space-y-4">
           <AppRow
             icon="/chatgpt-openai-logo-black-white.jpg"
@@ -103,7 +104,7 @@ const HomePage: React.FC = () => {
             subcategory={appConfig.apps.chatgpt.subcategory}
             installed={appConfig.apps.chatgpt.installed}
           />
-
+<br></br>
           <AppRow
             icon="/fbs-trading-broker-logo-green.jpg"
             name={appConfig.apps.fbs.name}
@@ -112,7 +113,7 @@ const HomePage: React.FC = () => {
             rating={appConfig.apps.fbs.rating}
             size={appConfig.apps.fbs.size}
           />
-
+<br></br>
           <AppRow
             icon="/expertoption-trading-logo-blue-chart.jpg"
             name={appConfig.apps.expertoption.name}
@@ -123,7 +124,7 @@ const HomePage: React.FC = () => {
           />
         </div>
       </div>
-
+<br></br>
       {/* Interest Chips */}
       <InterestChips interests={interests} />
     </div>
