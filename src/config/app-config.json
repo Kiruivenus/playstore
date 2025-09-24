@@ -1,0 +1,39 @@
+{
+  "externalLinks": {
+    "i&m": "https://play.google.com/store/apps/details?id=com.iandmbank.personal",
+    "mpesa": "https://play.google.com/store/apps/details?id=com.safaricom.mpesa"
+  },
+  "heroContent": {
+    "title": "Chess is now on Duolingo",
+    "updateLabel": "Update available"
+  },
+  "apps": {
+    "duolingo": {
+      "name": "Duolingo: Language Lessons",
+      "developer": "Duolingo",
+      "rating": 4.7,
+      "ageRating": "3+",
+      "installed": false
+    },
+    "chatgpt": {
+      "name": "ChatGPT",
+      "category": "Productivity",
+      "subcategory": "AI playground",
+      "installed": true
+    },
+    "fbs": {
+      "name": "FBS – Trading Broker",
+      "category": "Finance",
+      "subcategory": "Stock",
+      "rating": 4.3,
+      "size": "17 MB"
+    },
+    "expertoption": {
+      "name": "ExpertOption – Mobile Trading",
+      "category": "Finance",
+      "subcategory": "Investment",
+      "rating": 4.5,
+      "size": "22 MB"
+    }
+  }
+}
